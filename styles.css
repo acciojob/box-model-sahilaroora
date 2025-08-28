@@ -1,1 +1,29 @@
 /*  your css code here. If applicable */
+.container {
+  width: 300px;          /* choose an appropriate width */
+  margin: 20px auto;     /* center horizontally */
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 15px;
+  text-align: center;    /* center inline elements */
+}
+
+.red, .green, .yellow {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;    /* makes it a circle */
+  display: inline-block; /* show side-by-side */
+  margin: 0 10px;        /* spacing between circles */
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.yellow {
+  background-color: yellow;
+}
